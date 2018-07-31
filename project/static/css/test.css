@@ -1,0 +1,32 @@
+*{
+    margin: 0px 0px;
+    padding:0px 0px;
+}
+.scroll_div {
+    width:100%;
+    height:auto;
+    margin:0 0;
+    overflow: hidden;
+    white-space: nowrap;
+    background:#ffffff;
+}
+.scroll_div img {
+    width:100%;
+    height:auto;
+}
+#scroll_begin, #scroll_end, #scroll_begin ul, #scroll_end ul, #scroll_begin ul li, #scroll_end ul li{
+    display:inline;
+}/*设置ul和li横排*/
+
+.hot_play{ position:relative;} 
+.hot_play ul{ float:left;} 
+.hot_play li{ float:left; position:relative; width:95px; margin:4px 19px 16px 0;overflow:hidden;} 
+
+.hot_play a img{ width:86px; height:120px; padding:2px; border:1px solid #cfcfcf;}
+.hot_play a:hover img{ border-color:#8ECFF9;} 
+.hot_play span{display:block; width:35px; height:34px;position:absolute; left:0px; top:0px;} 
+.hot_play span.back{ background:url(images/hot.gif) no-repeat; } 
+<img src="./../static/images/hot.gif" style="position:absolute;z-index:1001;margin-left:380px;margin-top:1px;">
+.hot_play span{display:block; width:35px; height:34px;position:absolute; left:0px; top:0px;}
+.hot_play span.back{ background:url(images/hot.gif) no-repeat; }
+

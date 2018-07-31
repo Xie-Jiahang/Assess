@@ -1,0 +1,6 @@
+---
+applications:
+ - name: bestshow
+   random-route: true
+   memory: 1.875G
+   command: python runserver.py

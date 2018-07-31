@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="col-sm-12 col-md-12 col-lg-12">
+	<img src="../static/assets/img/logo.png" alt="BestShow Logo">
+	<br/>
+	<br/>
+	<h2 class="subtitle">We're working hard to perfect our website</h2>
+	<br/>		 
+		<form class="form-inline validate signup" action="../../result" method="post" enctype=multipart/form-data>
+		<div class="input-file-container">  
+    		<input class="input-file" type="file" id="file" name="file">
+    		<label tabindex="0" for="my-file" class="input-file-trigger">Select a file...</label>
+  		</div>
+  		<p class="file-return"></p>
+		<input type="submit" name="subscribe" value="Upload file" class="btn btn-theme">
+	</form>
+	<br/>
+</div>
+{% endblock %}
